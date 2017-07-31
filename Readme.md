@@ -24,3 +24,7 @@ Usage of aggr:
 ``` sh
 kubectl get pods -o json | jq -r '.items[].metadata.name' | aggr -cmd="kubectl logs -f {{.Arg}}"
 ```
+
+## TODO
+
+[ ] Automatically restart process
