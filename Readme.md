@@ -27,4 +27,4 @@ kubectl get pods -o json | jq -r '.items[].metadata.name' | aggr -cmd="kubectl l
 
 ## TODO
 
-[ ] Automatically restart process
+- [ ] Automatically restart process
